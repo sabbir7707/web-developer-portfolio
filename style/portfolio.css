@@ -107,10 +107,26 @@ font-weight: 400;
 line-height: 30px;
 }
 /* main  section  style*/
+main{
+
+    max-width: 1140px;
+    margin: 0px auto;
+    height: 550px;
+}
 /* about section style */
 .about{
     margin: 180px 0px;
-    padding: 1;
+    padding: 130;
     border-radius: 10px;
 background: #FFF8F3;
+}
+.about-div-containar{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do{
+    padding: 30px 150px;
 }
