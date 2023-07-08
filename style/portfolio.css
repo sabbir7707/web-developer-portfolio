@@ -3,12 +3,27 @@
 
     font-family: 'Open Sans', sans-serif;
 }
+.section-tital{
 
+    color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+.section-discription{
+
+color:  #757575;
+text-align: center;
+font-size: 18px;
+
+}
 /* nav related css*/
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 } 
 .text-coler{
     color: #FD6E0A;
@@ -44,4 +59,58 @@ nav li{
 nav a {
       color: #474747;
     text-decoration: none;
+}
+/* header class */
+.header{
+ background-color: #FFF8F3;
+ background-image: url('../images/header_bg.png');
+ background-repeat: no-repeat;
+ background-position: bottom right;
+
+
+}
+.banner{
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.banner .profile-pic{
+    width: 500px;
+
+
+}
+.banner-contant{
+    max-width: 500px;
+
+
+}
+.banner-gretting{
+        font-size: 45px;
+        color: #474747;
+        margin-bottom: 0;
+
+}
+.banner-titale{
+    font-size: 65px;
+    font-weight: 700;
+     margin-top: 5px;
+     margin-bottom: 20px;
+}
+.banner-discription{
+
+ font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+/* main  section  style*/
+/* about section style */
+.about{
+    margin: 180px 0px;
+    padding: 1;
+    border-radius: 10px;
+background: #FFF8F3;
 }
